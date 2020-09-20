@@ -19,4 +19,4 @@ function fib(n) {
   }
 }
 
-mem(fib(5));
+const res=mem(fib(5));

@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>EVENTING WORK</title>
+  </head>
+  <body>
+    <h1>click the button</h1>
+    <button>CLICK ME</button>
+  </body>
+  <script>
+    $("button").on("click", () => {
+      console.log("HELLO");
+    });
+    $("button").trigger("click");
+    //$("button").off("click");
+  </script>
+</html>
